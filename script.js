@@ -8,7 +8,7 @@ class Person {
 		 return n
 	 }
 	set name(newName){
-		this.name = newName
+		this._name = newName
 	}
 	get age(){
 		return a
