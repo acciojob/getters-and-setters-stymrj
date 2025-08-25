@@ -1,8 +1,8 @@
 //complete this code
 class Person {
 	constructor(n,a){
-		this.name = n
-		this.age = a
+		this._name = n
+		this._age = a
 	}
 	get name(){
 		 return n
@@ -14,7 +14,7 @@ class Person {
 		return a
 	}
 	set age(newAge){
-		this.age = newAge
+		this._age = newAge
 	}
 }
 
